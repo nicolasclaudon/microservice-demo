@@ -1,0 +1,13 @@
+zuul:
+  routes:
+    interlocuteurs:
+      path: /interlocuteurs/**
+      url: http://localhost:9000/interlocuteurs
+      #serviceId: interlocuteurs
+
+#eureka:
+ # client:
+  #  serviceUrl:
+   #   defaultZone: ${EUREKA_URL:http://user:password@localhost:5000}/eureka/
+server:
+  port: 8080
