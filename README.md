@@ -2,7 +2,7 @@
 
 ## Run des services
 ````
-../gradlew --parallel api-gateway:bootRun service-interlocuteurs:bootRun
+gradlew --parallel api-gateway:bootRun service-interlocuteurs:bootRun
 Ou bien utiliser IDEA pour lancer les deux projets
 ````
 ## Accéder aux services
